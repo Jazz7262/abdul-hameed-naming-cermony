@@ -22,7 +22,7 @@ function CustomModel() {
             <div className="modal-content">
                 <div className="modal-heading">
                     <h3 className="modal-title">
-                        J.M.S. Family's Naming Cermony Invitation
+                        J.M.S. Family's Naming Ceremony Invitation
                     </h3>
                 </div>
                 <div className="modal-body">

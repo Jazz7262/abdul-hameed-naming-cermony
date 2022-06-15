@@ -8,7 +8,7 @@ function Timeline() {
 
             <div className="wrapper" data-aos="fade-up" data-aos-delay="100">
                 <div className="content">
-                    <h1>Naming Cermony</h1>
+                    <h1>Naming Ceremony</h1>
                     <p>
                         On Monday, 20<sup>th</sup> June, 2022,
                         <br />
