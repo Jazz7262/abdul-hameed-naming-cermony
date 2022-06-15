@@ -38,7 +38,7 @@ function BabyInfo() {
                                 <div className="img-wrapper">
                                     <img
                                         className="baby-img"
-                                        src="../assets/images/1.png"
+                                        src="../assets/images/1.jpeg"
                                         alt="baby_img"
                                     />
                                 </div>
@@ -47,7 +47,7 @@ function BabyInfo() {
                                 <div className="img-wrapper">
                                     <img
                                         className="baby-img"
-                                        src="../assets/images/2.jpeg"
+                                        src="../assets/images/2.png"
                                         alt="baby_img"
                                     />
                                 </div>
