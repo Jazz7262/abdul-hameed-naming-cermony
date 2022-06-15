@@ -93,7 +93,8 @@ function BabyInfo() {
                         <h5 className="dob">Date of Birth: 17/01/2022.</h5>
                         <h4>S/o. Mrs. & Mr. J. Taher Basha Ashrafi</h4>
                         <h5>
-                            Grand S/o. Janab Alhaaj J. Abdul Hameed Sahab (Late)
+                            Grand S/o. Janab Alhaaj J. Abdul Hameed Ashrafi
+                            Sahab (Late)
                         </h5>
                         <h5>
                             Maternal Grand S/o. Janab Alhaaj B. Abdul Khader
