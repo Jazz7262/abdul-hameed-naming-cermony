@@ -18,7 +18,7 @@ function Header() {
             <h4>
                 Under the spirutual patronage of:
                 <br />
-                Qutu-e-Adoni Qutub-ud-Dawaayir Ashraf-ul-Ma'aasir
+                Qutub-e-Adoni Qutub-ud-Dawaayir Ashraf-ul-Ma'aasir
                 Sayyid-e-Barhaq Hazrath Sayyid Shah Taher Quadri, Al-Hamavi
                 Rahamatullaahi Alaih.
             </h4>
