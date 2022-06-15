@@ -1,0 +1,107 @@
+/* Big Screens */
+#slide {
+    padding: 0%;
+    box-shadow: 5px 5px 10px rgba(128, 128, 128, 0.492);
+    position: relative;
+    color: white;
+}
+
+#slide img {
+    width: 100%;
+}
+
+#slide .text-content {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 25%;
+    left: 0;
+}
+
+#slide .text-content h3 {
+    font-weight: 400;
+    font-size: 130%;
+    margin-bottom: 12px;
+}
+
+#slide .text-content h1 {
+    font-family: "Great vibes", cursive;
+    font-size: 250%;
+    margin-bottom: 16px;
+}
+
+#slide .text-content p {
+    display: inline-block;
+    padding: 8px 16px;
+    border: 2px solid black;
+    border-radius: 5px;
+    -webkit-animation: glow 2s linear infinite;
+    -moz-animation: glow 2s linear infinite;
+    animation: glow 2s linear infinite;
+}
+/* Glowing Date Animation  */
+@keyframes glow {
+    0% {
+        box-shadow: -5px -5px 5px rgb(215, 184, 84),
+            5px 5px 5px rgb(215, 184, 84),
+            -5px 5px 5px rgb(215, 184, 84),
+            5px -5px 5px rgb(215, 184, 84);
+    }
+
+    50% {
+        box-shadow: none;
+    }
+
+    100% {
+        box-shadow: -5px -5px 5px rgb(215, 184, 84),
+            5px 5px 5px rgb(215, 184, 84),
+            -5px 5px 5px rgb(215, 184, 84),
+            5px -5px 5px rgb(215, 184, 84);
+    }
+}
+
+/* Tablet Wide Screens */
+@media (max-width: 992px) {
+    #slide .text-content h3 {
+        font-size: 90%;
+    }
+    #slide .text-content h1 {
+        font-size: 200%;
+        margin-bottom: 10px;
+    }
+    #slide .text-content p {
+        font-size: 80%;
+        padding: 6px 12px;
+    }
+}
+
+/* New Mobile Phones Wide Screens */
+@media (max-width: 428px) {
+   
+    #slide img {
+        width: 100%;
+    }
+    #slide .text-content h3 {
+        font-size: 70%;
+        margin-bottom: 8px;
+    }
+    #slide .text-content h1 {
+        font-size: 140%;
+        margin-bottom: 6px;
+    }
+    #slide .text-content p {
+        font-size: 60%;
+        padding: 4px 8px;
+    }
+}
+
+/* Old Mobile Phones Wide Screens */
+@media (max-width: 360px) {
+    #slide .text-content h1 {
+        font-size: 100%;
+        margin-bottom: 4px;
+    }
+    #slide .text-content p {
+        padding: 3px 6px;
+    }
+}

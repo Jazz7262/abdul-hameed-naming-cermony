@@ -1,0 +1,47 @@
+#header {
+    color: #f9f097;
+    padding: 7%;
+    text-align: justify;
+    background: rgb(215, 184, 84);
+    background: radial-gradient(
+        circle,
+        rgba(215, 184, 84, 1) 0%,
+        rgba(96, 56, 19, 1) 80%
+    );
+}
+
+#header .poster {
+    border-radius: 50%;
+    width: 30%;
+    margin-bottom: 7%;
+}
+
+#header h3,
+#header h4 {
+    line-height: 1.5;
+}
+
+/* Tablet Wide Screens */
+@media (max-width: 992px) {
+}
+
+/* New Mobile Phones Wide Screens */
+@media (max-width: 428px) {
+    #header {
+        padding: 17% 10% 10%;
+    }
+    #header .poster {
+        width: 50%;
+    }
+
+    #header h3 {
+        font-size: 1rem;
+    }
+    #header h4 {
+        font-size: 12px;
+    }
+}
+
+/* Old Mobile Phones Wide Screens */
+@media (max-width: 360px) {
+}

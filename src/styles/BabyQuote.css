@@ -1,0 +1,45 @@
+/* Big Screens */
+
+/* Baby Quote */
+#baby-quote {
+    background: url("../../public/assets/images/bg-3.jpg")  repeat fixed 60%;
+    box-shadow: 5px 5px 10px rgba(128, 128, 128, 0.492);
+}
+
+#baby-quote .inner-content {
+    padding: 7% 15%;
+    color: rgb(215, 184, 84);
+}
+
+
+#baby-quote .inner-content h2 {
+    font-family: "Tangerine", cursive;
+}
+
+#baby-quote .inner-content h3 {
+    text-align: justify;
+    text-align-last: center;
+    line-height: 1.5;
+}
+
+#baby-quote .inner-content .right-align h3,
+#baby-quote .inner-content .right-align h2 {
+    display: flex;
+    justify-content: right;
+}
+
+#baby-quote .inner-content .right-align .icon {
+    margin-left: 8px;
+}
+
+/* Tablet Wide Screens */
+@media (max-width: 992px) {
+}
+
+/* New Mobile Phones Wide Screens */
+@media (max-width: 428px) {
+}
+
+/* Old Mobile Phones Wide Screens */
+@media (max-width: 360px) {
+}
