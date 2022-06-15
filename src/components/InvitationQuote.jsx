@@ -9,7 +9,7 @@ function InvitationQuote() {
                 <h3>
                     Sweetest will be the moments if you could make your presence
                     with Family and Friends on the auspicous occasion of the
-                    Nmaing Ceremony of our Son
+                    Naming Ceremony of our Son
                 </h3>
             </div>
         </section>
